@@ -1,0 +1,8 @@
+APP.JS
+
+
+import React, {useState} from react;
+import './App.css'
+
+Function App() {
+const [ handleClick = value => setInput (Input + value)

@@ -1,0 +1,40 @@
+.Calculator {
+  width: 300px; /* You can set your preferred width */
+  margin: 0 auto; /* Centering the calculator */
+  border: 5px solid #ac1414;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  margin-bottom: 10px;
+}
+
+.display input {
+  width: 50%;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 1px solid #129e05;
+  border-radius: 5px;
+  text-align: center; /* To align the input text to the right */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Creates 4 columns of equal width */
+  gap: 50px; /* The space between grid items */
+}
+
+.buttons button {
+  padding: 10px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #095066; /* Slight change on hover for visual feedback */
+}
